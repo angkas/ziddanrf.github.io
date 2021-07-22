@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+html, body{
+  height: 100%;
+  font-family: 'Poppins';
+}
+.page{
+  padding: 20px;
+}
+.page1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image: url('bg.jpg');
+  background-position: center;
+  background-position-x: -500px;
+  background-size: cover;
+  text-align: center;
+}
+.page1 h1{
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.blck{
+  background-color: rgba(0,0,0,.3);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.page2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding: 0 50px;
+}
+.page3{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  height: 100%;
+  background-color: #eee;
+  padding: 20px;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.card1{
+  background-image: url('https://www.citrust.id/wp-content/uploads/2018/02/SDN1-Gebangilir.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.card2{
+  background-image: url('https://siap-sekolah.s3-ap-southeast-1.amazonaws.com/68009/files/2016/10/20160812_094301-1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.card3{
+  background-image: url('https://www.jabarpublisher.com/wp-content/uploads/2019/03/IMG-20190302-WA0034.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.card4{
+  background-image: url('https://pbs.twimg.com/media/DqVN88cV4AAmR6u.jpg');
+  background-position: center;
+  background-size: cover;
+  background-position-y: -950px;
+}
+
+.page4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  height: 100%;
+}
+
+.ok{
+  text-align: left;
+}
+
+.kom {
+  background-color: red;
+  width: 60%;
+  color: white;
+  padding: 0 10px;
+}
+
+.bi{
+  background-color: red;
+  width: 70%;
+  color: white;
+  padding: 0 10px;
+}
+.bing{
+  background-color: red;
+  width: 30%;
+  color: white;
+  padding: 0 10px;
+}
+.mo{
+  background-color: red;
+  width: 40%;
+  color: white;
+  padding: 0 10px;
+}
+.tridi{
+  background-color: red;
+  width: 20%;
+  color: white;
+  padding: 0 10px;
+}
+.ap{
+  background-color: red;
+  width: 25%;
+  color: white;
+  padding: 0 10px;
+}
+.web{
+  background-color: red;
+  width: 40%;
+  color: white;
+  padding: 0 10px;
+}
+.fl{
+  background-color: red;
+  width: 10%;
+  color: white;
+  padding: 0 10px;
+}
+.sleep{
+  background-color: red;
+  width: 100%;
+  color: white;
+  padding: 0 10px;
+}
+.page5{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  background-color: #eee;
+  text-align: center;
+  padding: 20px;
+}
+.closed{
+  height: 200px;
+  background-color: #888;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
